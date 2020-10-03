@@ -143,6 +143,7 @@ li {
     margin-right: 0;
     padding:50px;
   }
+ 
 }
 
 @media (max-width: 600px) {
@@ -154,7 +155,11 @@ li {
     flex-wrap: wrap;
     align-items: flex-end;
     justify-content: flex-end;
-  }
+
+ 
+    }
+
+
 }
 
 .tm-nav-link {
@@ -253,6 +258,7 @@ li {
   display: -ms-flexbox;     
   display: flex;
   overflow: hidden;
+
 }
 .flexbox .col {
   flex: 1;
@@ -282,6 +288,7 @@ li {
   flex-direction: column;
   align-items: center;
   padding: 30px 30px 30px;
+  width: 33%
 }
 
 .tm-em-box p {
@@ -661,6 +668,10 @@ button:hover { cursor: pointer; }
   .tm-social-row { flex-direction: column; }
   .tm-icon { width: 100%; }
   .tm-icon-inner { padding: 30px; }
+  .tm-interview{
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @media (min-width: 1240px) {
